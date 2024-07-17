@@ -1571,8 +1571,8 @@ $exec_vendas_agrupado = sqlsrv_query($conn, $sql_vendas_agrupado);
                                 <th>${produto.produto_qtde}</th>
                                 <th>${prdValorUnidade}</th>
                                 ${modalidadeDescPrd}
-                                <th>${prdValorTotal}</th>
                                 <th>${prdValorImposto}</th>
+                                <th>${prdValorTotal}</th>
                             </tr>
                         `;
                     });
@@ -1913,7 +1913,7 @@ $exec_vendas_agrupado = sqlsrv_query($conn, $sql_vendas_agrupado);
                                     qtde: produto.produto_qtde
                                 },
                                 success: function(response) {
-                                    
+
                                 },
                                 error: function(xhr, status, error) {
                                     console.log('Erro ao atualizar o estoque do produto: ', error);
