@@ -1,0 +1,366 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.button {
+	position: relative;
+	transition: all 100ms; 
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 4px;
+}
+   
+.button::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: #009933;
+	z-index: -1;
+}
+
+.button:hover {
+	color: #e8e8e8;
+	font-weight: 500;
+}
+
+.button:hover::before {
+	width: 100%;
+}
+
+.buttonClose {
+	color: #e8e8e8;
+}
+
+.scrollBar {
+	max-height: 500px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scrollbar-color: #8a898f #2c2a35;
+	scrollbar-width: thin;
+	margin-right: -15px;
+}
+
+.scrollBar2 {
+	max-height: 380px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	scrollbar-color: #8a898f #2c2a35;
+	scrollbar-width: thin;
+	margin-right: 10px;
+}
+
+.prohibited{
+	cursor: not-allowed;
+}
+
+.bgColorDark {
+	background-color: #353541 !important;
+}
+
+#createTipo {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 0;
+    height: auto;
+}
+
+#editTipo {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    box-sizing: border-box;
+    padding-right: 0;
+    height: auto;
+}
+
+.fa-times:hover {
+    color: #b8b8b8;
+}
+
+.lowFont {
+	font-size: 1rem;
+}
+
+#esquerda, #direita {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#esquerda .form-control, #direita .form-control {
+    margin-left: 10px;
+	height: 49.6px;
+}
+
+#direita {
+    margin-left: auto;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.search-bar input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+}
+
+.product-details .form-group {
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+	margin-left: 10px;
+    width: 100%;
+}
+
+.vendedor-consumidor p {
+    margin-bottom: 10px;
+}
+
+.custom-select-height {
+    height: 50px;
+    padding: 0 10px;
+}
+
+.custom-button-height {
+    height: 52px;
+	width: 52px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	margin-left: -14px !important
+}
+
+.buttonWidth {
+	width: 97%;
+}
+
+.marginLabel {
+	margin-left: 10px;
+}
+
+.marginRightCorrection {
+	margin-right: -10px !important;
+}
+
+.marginLeftCorrection {
+	margin-left: -10px !important;
+}
+
+.marginRightCorrectionPositive {
+	margin-right: 20px !important;
+}
+
+.textRed {
+	color: red;
+	margin-right: -10px;
+	font-size: 0.85rem !important;
+}
+
+.textBlue {
+	color: #007bff;
+	font-size: 1.3rem !important;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.hrWhite {
+    border-bottom: 1px solid white;
+	width: 97%;
+    margin-left: 0px;
+}
+
+.widthCorrection {
+    width: 100% !important;
+}
+
+.total-compra {
+    position: fixed;
+    bottom: 0;
+    width: 59%;
+    padding: 0px 0px 11px 0px;
+}
+
+.maxWidthTable {
+	max-height: 500px !important;
+}
+
+.marginLeftAdjust {
+	margin-left: 40px;
+}
+
+.gapFix {
+	gap: 205px !important;
+}
+
+.ajusteWidthModal {
+    width: 600px !important;
+    max-width: 600px !important;
+}
+
+.pointer {
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.pointer2 {
+	cursor: pointer;
+}
+
+.modal-backdrop.custom-backdrop {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.modal.dimmed {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040; 
+}
+
+.heightFix {
+	height: 10px;
+}
+
+.heightFixDown {
+	padding-bottom: 20px;
+}
+
+.modal-md {
+    max-width: 600px !important;
+}
+
+.modal-mg {
+    max-width: 1000px !important;
+}
+
+#agrupadoPorClienteTable_filter,
+#semAgrupamentoTable_filter,
+#vendasClienteDetalhe_filter {
+    width: 100%;
+	position: sticky;
+    top: 0;
+    background-color: #2c2a35;
+    z-index: 999;
+}
+
+#vendaClienteAgrupadoTable_filter {
+	width: 98.5%;
+    position: sticky;
+    top: 0;
+    background-color: #2c2a35;
+    z-index: 999;
+    margin-right: 15px;
+}
+
+#agrupadoPorClienteTable_filter label,
+#semAgrupamentoTable_filter label,
+#vendasClienteDetalhe_filter label,
+#vendaClienteAgrupadoTable_filter label {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#agrupadoPorClienteTable_filter label input,
+#semAgrupamentoTable_filter label input,
+#vendasClienteDetalhe_filter label input,
+#vendaClienteAgrupadoTable_filter label input {
+    width: 100%;
+}
+
+#agrupadoPorClienteTable tbody tr,
+#semAgrupamentoTable tbody tr,
+#vendasClienteDetalhe tbody tr,
+#vendaClienteAgrupadoTable tbody tr,
+#agrupadoPorClienteTable tbody td,
+#semAgrupamentoTable tbody td,
+#vendasClienteDetalhe tbody td,
+#vendaClienteAgrupadoTable tbody td {
+    background-color: transparent !important;
+}
+
+#agrupadoPorClienteTable.dataTable.no-footer,
+#semAgrupamentoTable.dataTable.no-footer,
+#vendasClienteDetalhe.dataTable.no-footer,
+#vendaClienteAgrupadoTable.dataTable.no-footer {
+    border-bottom: none !important;
+}
+
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: none !important;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 10px 0px 0px 0px !important;
+    border-top: 0px solid #111 !important;
+}
+
+#agrupadoPorClienteTable thead th,
+#semAgrupamentoTable thead th,
+#vendasClienteDetalhe thead th,
+#vendaClienteAgrupadoTable thead th {
+    padding: 10px 20px 10px 0px !important;
+}
+
+
+#semAgrupamentoTable.dataTable tbody th,
+#semAgrupamentoTable.dataTable tbody td,
+#vendasClienteDetalhe.dataTable tbody th,
+#vendasClienteDetalhe.dataTable tbody td,
+#vendaClienteAgrupadoTable.dataTable tbody th,
+#vendaClienteAgrupadoTable.dataTable tbody td {
+    padding: 10px 20px 10px 0px !important;
+}
+
+#agrupadoPorClienteTable_filter input[type="search"],
+#semAgrupamentoTable_filter input[type="search"],
+#vendasClienteDetalhe_filter input[type="search"],
+#vendaClienteAgrupadoTable_filter input[type="search"] {
+    color: white;
+}
+
+#vendasClienteDetalhe.dataTable,
+#vendaClienteAgrupadoTable.dataTable,
+#agrupadoPorClienteTable {
+    width: 100% !important;
+}
+
+.tableHeadFixo {
+    width: 100%;
+	position: sticky;
+    top: 48px;
+    background-color: #2c2a35;
+    z-index: 998;
+}
+
+.centerFaSearch {
+    margin-left: 10px;
+	margin-right: -20px;
+}
+
+.centerFaSearch2 {
+    margin-left: 45px;
+    margin-right: -20px;
+}
