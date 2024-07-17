@@ -1,8 +1,8 @@
 # Desafio Técnico PHP - Desenvolvedor Full Stack Pleno
 
-<br>
-<hr>
-<br>
+Eu gravei um vídeo mostrando brevemente o conteúdo do projeto... Quaisquer duvidas podem me chamar!
+[![Watch the video](https://i9.ytimg.com/vi/6ZQy4Mf5_lc/mqdefault.jpg?sqp=CNzg37QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGEgYShhMA8=&rs=AOn4CLCmmOJJ_cbLY0lvn8Dp5KeqApSGIQ)](https://youtu.be/6ZQy4Mf5_lc)
+
 
 ## 🚀 Instalando dependências
 
